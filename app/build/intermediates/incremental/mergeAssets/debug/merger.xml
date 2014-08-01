@@ -4,26 +4,116 @@
     <dataSet config="main" >
         <source path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets" >
             <file
-                name="icc_centro_pav1.png"
-                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\icc_centro_pav1.png" />
+                name="PMU I/pmu1_ter.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\PMU I\pmu1_ter.png" />
             <file
-                name="icc_sul_ss.png"
-                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\icc_sul_ss.png" />
+                name="FE/fe5_ter.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\FE\fe5_ter.png" />
             <file
-                name="iq_ter.png"
-                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\iq_ter.png" />
+                name="BCE/bce_ss1.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\BCE\bce_ss1.png" />
             <file
-                name="ib_ter.png"
-                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\ib_ter.png" />
+                name="Reitoria/rt_ss.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\Reitoria\rt_ss.png" />
             <file
-                name="icc_centro_ss.png"
-                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\icc_centro_ss.png" />
+                name="ICC/Norte/icc_norte_ss.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\ICC\Norte\icc_norte_ss.png" />
             <file
-                name="icc_sul_ter.png"
-                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\icc_sul_ter.png" />
+                name="Reitoria/rt_pav3.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\Reitoria\rt_pav3.png" />
             <file
-                name="icc_norte_ss.png"
-                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\icc_norte_ss.png" />
+                name="PJC/pjc.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\PJC\pjc.png" />
+            <file
+                name="ICC/Norte/icc_norte_pav1.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\ICC\Norte\icc_norte_pav1.png" />
+            <file
+                name="FE/fe_1_ter.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\FE\fe_1_ter.png" />
+            <file
+                name="FS/fs_pav1.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\FS\fs_pav1.png" />
+            <file
+                name="ICC/Centro/icc_centro_ter.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\ICC\Centro\icc_centro_ter.png" />
+            <file
+                name="IQ/iq_pav1.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\IQ\iq_pav1.png" />
+            <file
+                name="FT/ft_pav1.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\FT\ft_pav1.png" />
+            <file
+                name="FT/ft_ter.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\FT\ft_ter.png" />
+            <file
+                name="ICC/Centro/icc_centro_pav1.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\ICC\Centro\icc_centro_pav1.png" />
+            <file
+                name="Reitoria/rt_ter.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\Reitoria\rt_ter.png" />
+            <file
+                name="PMU I/pmu1_pav1.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\PMU I\pmu1_pav1.png" />
+            <file
+                name="FS/fs_pav2.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\FS\fs_pav2.png" />
+            <file
+                name="ICC/Sul/icc_sul_pav1.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\ICC\Sul\icc_sul_pav1.png" />
+            <file
+                name="Reitoria/rt_pav1.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\Reitoria\rt_pav1.png" />
+            <file
+                name="PAT/pat.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\PAT\pat.png" />
+            <file
+                name="FE/fe3_ss.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\FE\fe3_ss.png" />
+            <file
+                name="FE/fe3_ter.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\FE\fe3_ter.png" />
+            <file
+                name="FA/fa_ter.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\FA\fa_ter.png" />
+            <file
+                name="FS/fs_ter.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\FS\fs_ter.png" />
+            <file
+                name="ICC/Norte/icc_norte_ter.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\ICC\Norte\icc_norte_ter.png" />
+            <file
+                name="BCE/bce_ter.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\BCE\bce_ter.png" />
+            <file
+                name="ICC/Sul/icc_sul_ss.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\ICC\Sul\icc_sul_ss.png" />
+            <file
+                name="FS/fs_ss.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\FS\fs_ss.png" />
+            <file
+                name="IQ/iq_ter.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\IQ\iq_ter.png" />
+            <file
+                name="PMU II/pmu2_ter.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\PMU II\pmu2_ter.png" />
+            <file
+                name="BCE/bce_pav1.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\BCE\bce_pav1.png" />
+            <file
+                name="PMU II/pmu2_pav1.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\PMU II\pmu2_pav1.png" />
+            <file
+                name="ICC/Centro/icc_centro_ss.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\ICC\Centro\icc_centro_ss.png" />
+            <file
+                name="Reitoria/rt_pav2.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\Reitoria\rt_pav2.png" />
+            <file
+                name="FA/fa_pav1.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\FA\fa_pav1.png" />
+            <file
+                name="ICC/Sul/icc_sul_ter.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\ICC\Sul\icc_sul_ter.png" />
         </source>
     </dataSet>
     <dataSet config="debug" >

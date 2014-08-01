@@ -1051,11 +1051,29 @@
             <file
                 path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\values\strings.xml"
                 qualifiers="" >
-                <string name="title_activity_slipt_screen" >O guia do mochileiro da UnB
-                </string>
                 <string name="nome_botao" >Prédios
                 </string>
+                <string name="title_activity_slipt_screen" >O guia do mochileiro da UnB
+                </string>
 
+                <string-array name="FE" >
+                    <item>
+FACULDADE DE EDUCAÇÃO
+                    </item>
+                    <item>
+O projeto original da Faculdade de Educação foi concebido sob orientação do educador Anísio Teixeira e então Reitor da UnB, em 1963. A FE que existia no Plano Orientador da UnB não se implantou de imediato em conseqüência da intervenção militar na Universidade de Brasília (ocupada no dia nove de abril de 1964). A FE somente começou a ser efetivamente implantada em 1966.
+                    </item>
+                    <item>
+Reitor Vigente: Laerte Ramos
+                    </item>
+                    <item>
+Departamentos:\n
+(FE) Faculdade de Educação\n
+(TEF) Departamento de Teoria e Fundamentos\n
+(MTC) Departamento de Métodos e Técnicas\n
+(PAD) Departamento de Planejamento e Administração\n
+                    </item>
+                </string-array>
                 <string-array name="FMFS" >
                     <item>
 FACULDADE DE MEDICINA E SAÚDE
@@ -1075,24 +1093,6 @@ Departamentos:\n
 (FAR) Departamento de Farmácia\n
 (DSC) Departamento de Saúde Coletiva\n
 (FMD) Faculdade de Medicina\n
-                    </item>
-                </string-array>
-                <string-array name="FE" >
-                    <item>
-FACULDADE DE EDUCAÇÃO
-                    </item>
-                    <item>
-O projeto original da Faculdade de Educação foi concebido sob orientação do educador Anísio Teixeira e então Reitor da UnB, em 1963. A FE que existia no Plano Orientador da UnB não se implantou de imediato em conseqüência da intervenção militar na Universidade de Brasília (ocupada no dia nove de abril de 1964). A FE somente começou a ser efetivamente implantada em 1966.
-                    </item>
-                    <item>
-Reitor Vigente: Laerte Ramos
-                    </item>
-                    <item>
-Departamentos:\n
-(FE) Faculdade de Educação\n
-(TEF) Departamento de Teoria e Fundamentos\n
-(MTC) Departamento de Métodos e Técnicas\n
-(PAD) Departamento de Planejamento e Administração\n
                     </item>
                 </string-array>
                 <string-array name="PAT" >
@@ -1382,6 +1382,10 @@ Térreo
 1º Andar
                     </item>
                 </string-array>
+
+                <string name="title_activity_conq" >Conquistas
+                </string>
+
                 <string-array name="PMU1" >
                     <item>
 PAVILHÃO MULTIUSO I
@@ -1392,10 +1396,6 @@ Informações Indisponíveis
                     <item/>
                     <item/>
                 </string-array>
-
-                <string name="title_activity_conq" >Conquistas
-                </string>
-
                 <string-array name="ICC_NORTE" >
                     <item>
  INSTITUTO CENTRAL DE CIÊNCIAS

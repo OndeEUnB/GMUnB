@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 public class Indice extends Activity {
 
+    //TODO melhorar sistema de indíce
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
@@ -157,9 +158,8 @@ public class Indice extends Activity {
             }
         });
 
-
-        //IB
-
+        //TODO adicionar IB no menu
+        /*//IB
         Button ib = (Button) findViewById(R.id.IB);
         ib.setBackgroundResource(R.drawable.bt_botoes_anim);
         ib.setOnClickListener(new View.OnClickListener() {
@@ -178,7 +178,7 @@ public class Indice extends Activity {
                         .putExtra("info_predio", 7)
                         .putExtra("num_pavimentos", 3));
             }
-        });
+        });*/
 
         //IQ
 
@@ -245,7 +245,7 @@ public class Indice extends Activity {
         });
         //PMU 1
 
-        Button pmu1 = (Button) findViewById(R.id.PMU1);
+        Button pmu1 = (Button) findViewById(R.id.PMU_I);
         pmu1.setBackgroundResource(R.drawable.bt_botoes_anim);
         pmu1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View conq) {
@@ -266,7 +266,7 @@ public class Indice extends Activity {
         });
         //PMU 2
 
-        Button pmu2 = (Button) findViewById(R.id.PMU2);
+        Button pmu2 = (Button) findViewById(R.id.PMU_II);
         pmu2.setBackgroundResource(R.drawable.bt_botoes_anim);
         pmu2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View conq) {
@@ -360,7 +360,7 @@ public class Indice extends Activity {
             //do whatever you want the 'Back' button to do
             //as an example the 'Back' button is set to start a new Activity named 'NewActivity'
             finish();
-            this.startActivity(new Intent(Indice.this,MainMap.class));
+            startActivity(new Intent(Indice.this, MainMap.class));
         }
         return true;
     }

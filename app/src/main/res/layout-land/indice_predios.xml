@@ -18,7 +18,9 @@
                 android1:layout_width="fill_parent"
                 android1:layout_height="fill_parent"
                 android1:layout_weight="1" >
-
+
+
+
                 <Button
                     android1:id="@+id/ICC_SUL"
                     android1:layout_width="fill_parent"
@@ -34,7 +36,9 @@
                 android1:layout_width="fill_parent"
                 android1:layout_height="fill_parent"
                 android1:layout_weight="1" >
-
+
+
+
                 <Button
                     android1:id="@+id/ICC_CENTRO"
                     android1:layout_width="fill_parent"
@@ -50,7 +54,9 @@
                 android1:layout_width="match_parent"
                 android1:layout_height="match_parent"
                 android1:layout_weight="1" >
-
+
+
+
                 <Button
                     android1:id="@+id/ICC_NORTE"
                     android1:layout_width="fill_parent"
@@ -71,7 +77,9 @@
                 android1:layout_width="fill_parent"
                 android1:layout_height="fill_parent"
                 android1:layout_weight="1" >
-
+
+
+
                 <Button
                     android1:id="@+id/FA"
                     android1:layout_width="fill_parent"
@@ -87,7 +95,9 @@
                 android1:layout_width="fill_parent"
                 android1:layout_height="fill_parent"
                 android1:layout_weight="1" >
-
+
+
+
                 <Button
                     android1:id="@+id/FE"
                     android1:layout_width="fill_parent"
@@ -103,7 +113,9 @@
                 android1:layout_width="match_parent"
                 android1:layout_height="match_parent"
                 android1:layout_weight="1" >
-
+
+
+
                 <Button
                     android1:id="@+id/FMFS"
                     android1:layout_width="fill_parent"
@@ -124,39 +136,42 @@
                 android1:layout_width="fill_parent"
                 android1:layout_height="fill_parent"
                 android1:layout_weight="1" >
-
+
+
                 <Button
-                    android1:id="@+id/IB"
+                    android1:id="@+id/PMU_I"
                     android1:layout_width="fill_parent"
                     android1:layout_height="70dp"
                     android1:layout_alignParentLeft="true"
                     android1:layout_alignParentTop="true"
                     android1:background="@drawable/botao_andar"
-                    android1:text="IB" />
-
+                    android1:text="PMU I"
+                    android:layout_alignParentStart="true" />
             </RelativeLayout>
 
             <RelativeLayout
                 android1:layout_width="fill_parent"
                 android1:layout_height="fill_parent"
                 android1:layout_weight="1" >
-
+
+
                 <Button
-                    android1:id="@+id/IQ"
+                    android1:id="@+id/PMU_II"
                     android1:layout_width="fill_parent"
                     android1:layout_height="70dp"
                     android1:layout_alignParentLeft="true"
                     android1:layout_alignParentTop="true"
                     android1:background="@drawable/botao_andar"
-                    android1:text="IQ" />
-
+                    android1:text="PMU II" />
             </RelativeLayout>
 
             <RelativeLayout
                 android1:layout_width="match_parent"
                 android1:layout_height="match_parent"
                 android1:layout_weight="1" >
-
+
+
+
                 <Button
                     android1:id="@+id/PAT"
                     android1:layout_width="fill_parent"
@@ -231,14 +246,13 @@
                 android1:visibility="visible" >
 
                 <Button
-                    android1:id="@+id/PMU1"
+                    android1:id="@+id/IQ"
                     android1:layout_width="fill_parent"
                     android1:layout_height="70dp"
                     android1:layout_alignParentLeft="true"
                     android1:layout_alignParentTop="true"
                     android1:background="@drawable/botao_andar"
-                    android1:text="PMU I"
-                    android1:visibility="gone" />
+                    android1:text="IQ" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -262,14 +276,6 @@
                 android1:layout_weight="1"
                 android1:visibility="invisible" >
 
-                <Button
-                    android1:id="@+id/PMU2"
-                    android1:layout_width="fill_parent"
-                    android1:layout_height="70dp"
-                    android1:layout_alignParentLeft="true"
-                    android1:layout_alignParentTop="true"
-                    android1:background="@drawable/botao_andar"
-                    android1:text="PMU II" />
             </RelativeLayout>
         </LinearLayout>
 

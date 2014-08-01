@@ -5,7 +5,10 @@ package br.unb.struct.gmunb;
  */
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.KeyEvent;
+
 import br.unb.struct.gmunb.R.id;
 
 
@@ -17,20 +20,18 @@ public class Build_Predio extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mapa_especifico);
 
-        SubsamplingScaleImageView imageView = (SubsamplingScaleImageView)findViewById(id.imageView);
-        imageView.setImageAsset("icc_centro_ss.png");
-        /*
         //Pega o numero de pavimentos
         final int pavimento = getIntent().getIntExtra("pavimento",1);
         //Pega a informação do prédio
         final int info_predio = getIntent().getIntExtra("info_predio",1);
-        */
-        //PreparaXML(info_predio,pavimento);
+
+        PreparaXML(info_predio,pavimento);
 
     }
 
-  /*  private void PreparaXML (int info_predio, int pavimento){
+    private void PreparaXML (int info_predio, int pavimento){
         int i,j;
+        SubsamplingScaleImageView imageView = (SubsamplingScaleImageView)findViewById(id.imageView);
         //Escolhe a opção correspondente ao prédio
         switch(info_predio){
             //ICC - Sul
@@ -38,62 +39,32 @@ public class Build_Predio extends Activity {
                 switch(pavimento){
                     //Subsolo
                     case 1:
-                        mapa.setImageResource(R.drawable.icc_sul_ss);
-
+                        imageView.setImageAsset("ICC/Sul/icc_sul_ss.png");
+                        break;
                     //Térreo
                     case 2:
-                        for(i=1;i<4;i++){
-                            s.append("<tr>");
-                            for(j=1;j<7;j++){
-                                s.append("<td> <img src=\"file:///android_asset/icc_sul/ter/icc_sul_ter-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("ICC/Sul/icc_sul_ter.png");
                         break;
                     //1º Andar
                     case 3:
-                        for(i=1;i<4;i++){
-                            s.append("<tr>");
-                            for(j=1;j<8;j++){
-                                s.append("<td> <img src=\"file:///android_asset/icc_sul/pav1/icc_sul_pav1-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
-                        break;*/
-                }/*
+                        imageView.setImageAsset("ICC/Sul/icc_sul_pav1.png");
+                        break;
+                }
                 break;
             //ICC - Centro
             case 2:
                 switch(pavimento){
                     //Subsolo
                     case 1:
-                        for(i=1;i<4;i++){
-                            s.append("<tr>");
-                            for(j=1;j<7;j++){
-                                s.append("<td> <img src=\"file:///android_asset/icc_centro/ss/icc_centro_ss-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("ICC/Centro/icc_centro_ss.png");
                         break;
                     //Térreo
                     case 2:
-                        for(i=1;i<4;i++){
-                            s.append("<tr>");
-                            for(j=1;j<9;j++){
-                                s.append("<td> <img src=\"file:///android_asset/icc_centro/ter/icc_centro_ter-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("ICC/Centro/icc_centro_ter.png");
                         break;
                     //1º Andar
                     case 3:
-                        for(i=1;i<4;i++){
-                            s.append("<tr>");
-                            for(j=1;j<7;j++){
-                                s.append("<td> <img src=\"file:///android_asset/icc_centro/pav1/icc_centro_pav1-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("ICC/Centro/icc_centro_pav1.png");
                         break;
                 }
                 break;
@@ -102,33 +73,15 @@ public class Build_Predio extends Activity {
                 switch(pavimento){
                     //Subsolo
                     case 1:
-                        for(i=1;i<4;i++){
-                            s.append("<tr>");
-                            for(j=1;j<7;j++){
-                                s.append("<td> <img src=\"file:///android_asset/icc_norte/ss/icc_norte_ss-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("ICC/Norte/icc_norte_ss.png");
                         break;
                     //Térreo
                     case 2:
-                        for(i=1;i<4;i++){
-                            s.append("<tr>");
-                            for(j=1;j<8;j++){
-                                s.append("<td> <img src=\"file:///android_asset/icc_norte/ter/icc_norte_ter-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("ICC/Norte/icc_norte_ter.png");
                         break;
                     //1º Andar
                     case 3:
-                        for(i=1;i<4;i++){
-                            s.append("<tr>");
-                            for(j=1;j<8;j++){
-                                s.append("<td> <img src=\"file:///android_asset/icc_norte/pav1/icc_norte_pav1-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("ICC/Norte/icc_norte_pav1.png");
                         break;
                 }
                 break;
@@ -137,23 +90,11 @@ public class Build_Predio extends Activity {
                 switch(pavimento){
                     //Térreo
                     case 1:
-                        for(i=1;i<4;i++){
-                            s.append("<tr>");
-                            for(j=1;j<4;j++){
-                                s.append("<td> <img src=\"file:///android_asset/fa/ter/fa_ter-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("FA/fa_ter.png");
                         break;
                     //1º Andar
                     case 2:
-                        for(i=1;i<4;i++){
-                            s.append("<tr>");
-                            for(j=1;j<4;j++){
-                                s.append("<td> <img src=\"file:///android_asset/fa/pav1/fa_pav1-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("FA/fa_pav1.png");
                         break;
                 }
                 break;
@@ -162,43 +103,19 @@ public class Build_Predio extends Activity {
                 switch(pavimento){
                     //Prédio 1
                     case 1:
-                        for(i=1;i<3;i++){
-                            s.append("<tr>");
-                            for(j=1;j<4;j++){
-                                s.append("<td> <img src=\"file:///android_asset/fe/fe1/fe1-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("FE/fe_1_ter.png");
                         break;
                     //Prédio 2 SS
                     case 2:
-                        for(i=1;i<2;i++){
-                            s.append("<tr>");
-                            for(j=1;j<3;j++){
-                                s.append("<td> <img src=\"file:///android_asset/fe/fe2_0/fe2_0-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("FE/fe_3_ss.png");
                         break;
                     //Prédio 2 TER
                     case 3:
-                        for(i=1;i<3;i++){
-                            s.append("<tr>");
-                            for(j=1;j<4;j++){
-                                s.append("<td> <img src=\"file:///android_asset/fe/fe2_1/fe2_1-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("FE/fe_3_ter.png");
                         break;
                     //Prédio 3
                     case 4:
-                        for(i=1;i<4;i++){
-                            s.append("<tr>");
-                            for(j=1;j<6;j++){
-                                s.append("<td> <img src=\"file:///android_asset/fe/fe3/fe3-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("FE/fe_5_ter.png");
                         break;
                 }
                 break;
@@ -207,123 +124,59 @@ public class Build_Predio extends Activity {
                 switch(pavimento){
                     //Subsolo
                     case 1:
-                        for(i=1;i<3;i++){
-                            s.append("<tr>");
-                            for(j=1;j<9;j++){
-                                s.append("<td> <img src=\"file:///android_asset/fs/ss/fs_ss-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("FS/fs_ss.png");
                         break;
                     //Térreo
                     case 2:
-                        for(i=1;i<5;i++){
-                            s.append("<tr>");
-                            for(j=1;j<6;j++){
-                                s.append("<td> <img src=\"file:///android_asset/fs/ter/fs_ter-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("FS/fs_ter.png");
                         break;
                     //1º Andar
                     case 3:
-                        for(i=1;i<4;i++){
-                            s.append("<tr>");
-                            for(j=1;j<8;j++){
-                                s.append("<td> <img src=\"file:///android_asset/fs/pav1/fs_pav1-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("FS/fs_pav1.png");
                         break;
                     //2º Andar
                     case 4:
-                        for(i=1;i<4;i++){
-                            s.append("<tr>");
-                            for(j=1;j<14;j++){
-                                s.append("<td> <img src=\"file:///android_asset/fs/pav2/fs_pav2-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
-                        break;
-                }
-                break;
-            //IB
-            case 7:
-                switch(pavimento){
-                    //Subsolo
-                    case 1:
-                        for(i=1;i<4;i++){
-                            s.append("<tr>");
-                            for(j=1;j<8;j++){
-                                s.append("<td> <img src=\"file:///android_asset/ib/ss/ib_ss-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
-                        break;
-                    //Térreo
-                    case 2:
-                        for(i=1;i<4;i++){
-                            s.append("<tr>");
-                            for(j=1;j<7;j++){
-                                s.append("<td> <img src=\"file:///android_asset/ib/ter/ib_ter-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
-                        break;
-                    /********************************************FAltando Planta feita
-                     * faltando planta feita
-                     * faltando planta feita
-                     * faltando planta feita
-                     * faltando planta feita
-                     /
-                    //1º Andar
-                    case 3:
-                        s.append("<img src=\"file:///android_asset/ib_pav1.png\" />");
-                        s.append("</body>");
-                        s.append("</html>");
-                        view.loadDataWithBaseURL(null, s.toString(), "text/html", "UTF-8", null);
-                        view.setInitialScale(100);
+                        imageView.setImageAsset("FS/fs_pav2.png");
                         break;
                 }
                 break;
 
+            // TODO  Colocar plantas do IB
+            /*//IB
+            case 7:
+                switch(pavimento){
+                    //Subsolo
+                    case 1:
+                        imageView.setImageAsset("IB/ib_ss.png");
+                        break;
+                    //Térreo
+                    case 2:
+                        imageView.setImageAsset("IB/ib_ter.png");
+                        break;
+                    case 3:
+                        imageView.setImageAsset("IB/ib_pav1.png");
+                        break;
+                }
+                break;
+            */
             //IQ
             case 8:
                 switch(pavimento){
                     //Térreo
                     case 1:
-                        for(i=1;i<4;i++){
-                            s.append("<tr>");
-                            for(j=1;j<7;j++){
-                                s.append("<td> <img src=\"file:///android_asset/iq/ter/iq_ter-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("IQ/iq_ter.png");
                         break;
                     //1º Andar
                     case 2:
-                        for(i=1;i<4;i++){
-                            s.append("<tr>");
-                            for(j=1;j<6;j++){
-                                s.append("<td> <img src=\"file:///android_asset/iq/pav1/iq_pav1-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("IQ/iq_pav1.png");
                         break;
                 }
                 break;
             //PAT
             case 9:
                 switch(pavimento){
-                    //Térreo
                     case 1:
-                        for(i=1;i<3;i++){
-                            s.append("<tr>");
-                            for(j=1;j<7;j++){
-                                s.append("<td> <img src=\"file:///android_asset/pat/pat-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("PAT/pat.png");
                         break;
                 }
                 break;
@@ -332,35 +185,21 @@ public class Build_Predio extends Activity {
                 switch(pavimento){
                     //Térreo
                     case 1:
-                        for(i=1;i<3;i++){
-                            s.append("<tr>");
-                            for(j=1;j<8;j++){
-                                s.append("<td> <img src=\"file:///android_asset/pjc/pjc-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("PJC/pjc.png");
                         break;
                 }
                 break;
-		/*	//PMU I
+			//PMU I
 			case 11:
 				switch(pavimento){
 					//Térreo
 					case 1:
-						   s.append("<img src=\"file:///android_asset/pmu1_ter.png\" />");
-						   s.append("</body>");
-						   s.append("</html>");
-						   view.loadDataWithBaseURL(null, s.toString(), "text/html", "UTF-8", null);
-						   view.setInitialScale(100);
-						break;
+                        imageView.setImageAsset("PMU I/pmu1_ter.png");
+                        break;
 					//1º Andar
 					case 2:
-						   s.append("<img src=\"file:///android_asset/pmu1_pav1.png\" />");
-						   s.append("</body>");
-						   s.append("</html>");
-						   view.loadDataWithBaseURL(null, s.toString(), "text/html", "UTF-8", null);
-						   view.setInitialScale(100);
-						break;
+                        imageView.setImageAsset("PMU I/pmu1_pav1.png");
+                        break;
 				}
 				break;
 			//PMU II
@@ -368,55 +207,28 @@ public class Build_Predio extends Activity {
 				switch(pavimento){
 					//Térreo
 					case 1:
-						   s.append("<img src=\"file:///android_asset/pmu2_ter.png\" />");
-						   s.append("</body>");
-						   s.append("</html>");
-						   view.loadDataWithBaseURL(null, s.toString(), "text/html", "UTF-8", null);
-						   view.setInitialScale(100);
-						break;
+                        imageView.setImageAsset("PMU II/pmu2_ter.png");
+                        break;
 					//1º Andar
 					case 2:
-						   s.append("<img src=\"file:///android_asset/pmu2_pav1.png\" />");
-						   s.append("</body>");
-						   s.append("</html>");
-						   view.loadDataWithBaseURL(null, s.toString(), "text/html", "UTF-8", null);
-						   view.setInitialScale(100);
-						break;
+                        imageView.setImageAsset("PMU II/pmu2_pav1.png");
+                        break;
 				}
 				break;
-			/
             //BCE
             case 13:
                 switch(pavimento){
                     //Subsolo
                     case 1:
-                        for(i=1;i<4;i++){
-                            s.append("<tr>");
-                            for(j=1;j<8;j++){
-                                s.append("<td> <img src=\"file:///android_asset/bce/ss/bce_ss-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("BCE/bce_ss1.png");
                         break;
                     //Térreo
                     case 2:
-                        for(i=1;i<4;i++){
-                            s.append("<tr>");
-                            for(j=1;j<8;j++){
-                                s.append("<td> <img src=\"file:///android_asset/bce/ter/bce_ter-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("BCE/bce_ter.png");
                         break;
                     //1º Andar
                     case 3:
-                        for(i=1;i<4;i++){
-                            s.append("<tr>");
-                            for(j=1;j<8;j++){
-                                s.append("<td> <img src=\"file:///android_asset/bce/pav1/bce_pav1-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("BCE/bce_pav1.png");
                         break;
                 }
                 break;
@@ -425,23 +237,11 @@ public class Build_Predio extends Activity {
                 switch(pavimento){
                     //Térreo
                     case 1:
-                        for(i=1;i<5;i++){
-                            s.append("<tr>");
-                            for(j=1;j<8;j++){
-                                s.append("<td> <img src=\"file:///android_asset/ft/ter/ft_ter-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("FT/ft_ter.png");
                         break;
                     //1º Andar
                     case 2:
-                        for(i=1;i<5;i++){
-                            s.append("<tr>");
-                            for(j=1;j<8;j++){
-                                s.append("<td> <img src=\"file:///android_asset/ft/pav1/ft_pav1-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("FT/ft_pav1.png");
                         break;
                 }
                 break;
@@ -450,57 +250,42 @@ public class Build_Predio extends Activity {
                 switch(pavimento){
                     //Subsolo
                     case 1:
-                        for(i=1;i<3;i++){
-                            s.append("<tr>");
-                            for(j=1;j<5;j++){
-                                s.append("<td> <img src=\"file:///android_asset/ret/ss/rt_ss-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("Reitoria/rt_ss.png");
                         break;
                     //Térreo
                     case 2:
-                        for(i=1;i<4;i++){
-                            s.append("<tr>");
-                            for(j=1;j<5;j++){
-                                s.append("<td> <img src=\"file:///android_asset/ret/ter/rt_ter-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("Reitoria/rt_ter.png");
                         break;
                     //1º Andar
                     case 3:
-                        for(i=1;i<6;i++){
-                            s.append("<tr>");
-                            for(j=1;j<8;j++){
-                                s.append("<td> <img src=\"file:///android_asset/ret/pav1/rt_pav1-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("Reitoria/rt_pav1.png");
                         break;
                     //2º Andar
                     case 4:
-                        for(i=1;i<4;i++){
-                            s.append("<tr>");
-                            for(j=1;j<6;j++){
-                                s.append("<td> <img src=\"file:///android_asset/ret/pav2/rt_pav2-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("Reitoria/rt_pav2.png");
                         break;
                     //3º Andar
                     case 5:
-                        for(i=1;i<3;i++){
-                            s.append("<tr>");
-                            for(j=1;j<5;j++){
-                                s.append("<td> <img src=\"file:///android_asset/ret/pav3/rt_pav3-" + i + "-" + j + ".png\" /> </td>");
-                            }
-                            s.append("</tr>");
-                        }
+                        imageView.setImageAsset("Reitoria/rt_pav3.png");
                         break;
                 }
-                break;/
+                break;
         }
     }
+
+
+    //Resolve Memory Leak App
+    //Override the onKeyDown method
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event)
+    {
+        //replaces the default 'Back' button action
+        if(keyCode==KeyEvent.KEYCODE_BACK)
+        {
+            //do whatever you want the 'Back' button to do
+            //as an example the 'Back' button is set to start a new Activity named 'NewActivity'
+            finish();
+        }
+        return true;
+    }
 }
-*/

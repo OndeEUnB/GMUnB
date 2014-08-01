@@ -7,6 +7,7 @@ package br.unb.struct.gmunb;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.ImageButton;
 
@@ -63,5 +64,19 @@ public class MainMenu extends Activity {
             }
         });
 
+    }
+    //Resolve Memory Leak App
+    //Override the onKeyDown method
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event)
+    {
+        //replaces the default 'Back' button action
+        if(keyCode==KeyEvent.KEYCODE_BACK)
+        {
+            //do whatever you want the 'Back' button to do
+            //as an example the 'Back' button is set to start a new Activity named 'NewActivity'
+            finish();
+        }
+        return true;
     }
 }
