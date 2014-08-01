@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets" >
+            <file
+                name="icc_centro_pav1.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\icc_centro_pav1.png" />
+            <file
+                name="icc_sul_ss.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\icc_sul_ss.png" />
+            <file
+                name="iq_ter.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\iq_ter.png" />
+            <file
+                name="ib_ter.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\ib_ter.png" />
+            <file
+                name="icc_centro_ss.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\icc_centro_ss.png" />
+            <file
+                name="icc_sul_ter.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\icc_sul_ter.png" />
+            <file
+                name="icc_norte_ss.png"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\assets\icc_norte_ss.png" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\debug\assets" />
+    </dataSet>
+
+</merger>

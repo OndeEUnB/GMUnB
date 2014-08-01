@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/E:/Users/fraps/AndroidstudioProjects/GMUnB/app/src/main/res/values-v21/styles.xml -->
+    <eat-comment />
+
+    <style name="MyTheme" parent="android:Theme.Holo.Light">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:screenOrientation">landscape</item>
+    </style>
+
+</resources>

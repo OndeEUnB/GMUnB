@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.unb.struct.gmunb"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+
+    <!-- Screen Specifications -->
+
+    <supports-screens
+        android:anyDensity="true"
+        android:resizeable="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyTheme" >
+
+        <!-- Activity: Splash Screen -->
+        <activity
+            android:name="br.unb.struct.gmunb.SplashScreen"
+            android:label="@string/title_activity_splash_screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- Activity: Main Menu -->
+
+        <activity
+            android:name="br.unb.struct.gmunb.MainMenu"
+            android:label="@string/title_activity_menu"
+            android:screenOrientation="landscape" >
+        </activity>
+
+        <!-- Activity: Créditos -->
+
+        <activity
+            android:name="br.unb.struct.gmunb.Creditos"
+            android:label="@string/title_activity_cred"
+            android:screenOrientation="landscape" >
+        </activity>
+
+        <!-- Activity: Conquistas -->
+
+        <activity
+            android:name="br.unb.struct.gmunb.Conquistas"
+            android:label="@string/title_activity_conq"
+            android:screenOrientation="landscape" >
+        </activity>
+
+        <!-- Activity: Saiba_Mais -->
+        <activity
+            android:name="br.unb.struct.gmunb.Saiba_Mais"
+            android:screenOrientation="landscape" />
+
+        <!-- Activity: RU -->
+        <activity
+            android:name="br.unb.struct.gmunb.RU"
+            android:screenOrientation="landscape" />
+
+        <!-- Activity: MainMap -->
+        <activity
+            android:name="br.unb.struct.gmunb.MainMap"
+            android:screenOrientation="landscape" />
+
+        <!-- Activity: Indice -->
+        <activity
+            android:name="br.unb.struct.gmunb.Indice"
+            android:screenOrientation="landscape" />
+
+        <!-- Activity: Build_Options -->
+        <activity
+            android:name="br.unb.struct.gmunb.Build_Options"
+            android:screenOrientation="landscape" />
+
+        <!-- Activity: Build_Options -->
+        <activity
+            android:name="br.unb.struct.gmunb.Build_Predio"
+            android:screenOrientation="landscape" />
+    </application>
+
+</manifest>

@@ -1,0 +1,1551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res" >
+            <file
+                name="decelerate"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\anim\decelerate.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="fade_in"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\anim\fade_in.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="fade_out"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\anim\fade_out.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="move_down"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\anim\move_down.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="move_left"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\anim\move_left.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="move_right"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\anim\move_right.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="move_up"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\anim\move_up.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="botao_andar"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\botao_andar.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="botao_andar_pressionado"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\botao_andar_pressionado.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="botao_titulo"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\botao_titulo.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="bt_botoes2_anim"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\bt_botoes2_anim.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="bt_botoes_anim"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\bt_botoes_anim.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="dot_dark"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\dot_dark.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="dot_light"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\dot_light.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="empty"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\empty.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="foto_bce"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\foto_bce.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="foto_fa"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\foto_fa.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="foto_fe"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\foto_fe.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="foto_fmfs"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\foto_fmfs.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="foto_ft"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\foto_ft.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="foto_ib"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\foto_ib.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="foto_icc"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\foto_icc.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="foto_iq"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\foto_iq.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="foto_pat"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\foto_pat.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="foto_pjc"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\foto_pjc.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="foto_pmu1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\foto_pmu1.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="foto_pmu2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\foto_pmu2.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="foto_reitoria"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\foto_reitoria.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="foto_ru"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\foto_ru.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="main_bt_calen_nome"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\main_bt_calen_nome.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="main_bt_cale_anim"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\main_bt_cale_anim.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="main_bt_conq_anim"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\main_bt_conq_anim.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="main_bt_conq_nome"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\main_bt_conq_nome.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="main_bt_cred_anim"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\main_bt_cred_anim.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="main_bt_cred_nome"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\main_bt_cred_nome.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="main_bt_division"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\main_bt_division.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="main_bt_geral_back"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\main_bt_geral_back.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="main_bt_geral_fim"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\main_bt_geral_fim.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="main_bt_mapa_anim"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\main_bt_mapa_anim.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="main_bt_mapa_back"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\main_bt_mapa_back.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="main_bt_mapa_nome"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\main_bt_mapa_nome.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="menu_bt_face_anim"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\menu_bt_face_anim.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="menu_bt_mail_anim"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\menu_bt_mail_anim.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="menu_bt_twit_anim"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\menu_bt_twit_anim.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="planta_geral_unb"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable\planta_geral_unb.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="cred_bt_fb1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\cred_bt_fb1.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="cred_bt_t1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\cred_bt_t1.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="cred_struct"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\cred_struct.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_search"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\ic_action_search.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_cale"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\main_bt_cale.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_cale_1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\main_bt_cale_1.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_cale_2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\main_bt_cale_2.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_conq"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\main_bt_conq.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_conq_1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\main_bt_conq_1.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_conq_2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\main_bt_conq_2.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_cred"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\main_bt_cred.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_cred_1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\main_bt_cred_1.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_cred_2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\main_bt_cred_2.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_mapa"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\main_bt_mapa.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_mapa_1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\main_bt_mapa_1.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_mapa_2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\main_bt_mapa_2.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="main_press_cale"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\main_press_cale.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="main_press_conq"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\main_press_conq.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="main_press_cred"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\main_press_cred.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="main_press_mapa"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\main_press_mapa.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="main_title"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\main_title.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_background"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\menu_background.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bg"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\menu_bg.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_conq1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\menu_bt_conq1.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_conq2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\menu_bt_conq2.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_cred1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\menu_bt_cred1.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_cred2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\menu_bt_cred2.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_face_1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\menu_bt_face_1.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_face_2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\menu_bt_face_2.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_mail_1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\menu_bt_mail_1.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_mail_2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\menu_bt_mail_2.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_mapa1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\menu_bt_mapa1.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_mapa2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\menu_bt_mapa2.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_twit_1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\menu_bt_twit_1.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_twit_2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\menu_bt_twit_2.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_conq"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\menu_conq.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_conquistas"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\menu_conquistas.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_cred"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\menu_cred.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_creditos"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\menu_creditos.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_marvin"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\menu_marvin.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_struct"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\menu_struct.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="splashscreen"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\splashscreen.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="splashscreen_menu_botton"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\splashscreen_menu_botton.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="splash_background"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\splash_background.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="splash_marvin"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\splash_marvin.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="splash_struct"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\splash_struct.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="splash_title"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\splash_title.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="splash_unb50"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-hdpi\splash_unb50.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="cred_bt_f1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\cred_bt_f1.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="cred_bt_f2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\cred_bt_f2.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="cred_bt_t1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\cred_bt_t1.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="cred_bt_t2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\cred_bt_t2.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="cred_struct"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\cred_struct.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_search"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\ic_action_search.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_cale"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\main_bt_cale.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_cale_1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\main_bt_cale_1.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_cale_2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\main_bt_cale_2.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_conq"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\main_bt_conq.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_conq_1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\main_bt_conq_1.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_conq_2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\main_bt_conq_2.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_cred"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\main_bt_cred.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_cred_1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\main_bt_cred_1.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_cred_2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\main_bt_cred_2.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_mapa"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\main_bt_mapa.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_mapa_1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\main_bt_mapa_1.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_mapa_2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\main_bt_mapa_2.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="main_press_cale"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\main_press_cale.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="main_press_conq"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\main_press_conq.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="main_press_cred"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\main_press_cred.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="main_press_mapa"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\main_press_mapa.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="main_title"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\main_title.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_background"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\menu_background.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bg"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\menu_bg.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_conq1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\menu_bt_conq1.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_conq2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\menu_bt_conq2.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_cred1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\menu_bt_cred1.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_cred2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\menu_bt_cred2.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_face_1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\menu_bt_face_1.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_face_2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\menu_bt_face_2.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_mail_1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\menu_bt_mail_1.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_mail_2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\menu_bt_mail_2.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_mapa1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\menu_bt_mapa1.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_mapa2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\menu_bt_mapa2.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_twit_1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\menu_bt_twit_1.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_twit_2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\menu_bt_twit_2.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_conq"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\menu_conq.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_conquistas"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\menu_conquistas.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_cred"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\menu_cred.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_creditos"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\menu_creditos.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_marvin"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\menu_marvin.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_struct"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\menu_struct.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="splashscreen"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\splashscreen.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="splashscreen_menu_botton"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\splashscreen_menu_botton.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="splash_background"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\splash_background.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="splash_marvin"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\splash_marvin.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="splash_struct"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\splash_struct.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="splash_title"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\splash_title.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="splash_unb50"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-mdpi\splash_unb50.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="cred_bt_f1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\cred_bt_f1.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="cred_bt_f2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\cred_bt_f2.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="cred_bt_t1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\cred_bt_t1.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="cred_bt_t2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\cred_bt_t2.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="cred_struct"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\cred_struct.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_search"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\ic_action_search.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_cale"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\main_bt_cale.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_cale_1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\main_bt_cale_1.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_cale_2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\main_bt_cale_2.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_conq"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\main_bt_conq.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_conq_1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\main_bt_conq_1.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_conq_2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\main_bt_conq_2.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_cred"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\main_bt_cred.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_cred_1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\main_bt_cred_1.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_cred_2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\main_bt_cred_2.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_mapa"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\main_bt_mapa.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_mapa_1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\main_bt_mapa_1.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="main_bt_mapa_2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\main_bt_mapa_2.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="main_press_cale"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\main_press_cale.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="main_press_conq"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\main_press_conq.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="main_press_cred"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\main_press_cred.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="main_press_mapa"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\main_press_mapa.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="main_title"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\main_title.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_background"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\menu_background.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bg"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\menu_bg.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_conq1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\menu_bt_conq1.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_conq2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\menu_bt_conq2.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_cred1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\menu_bt_cred1.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_cred2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\menu_bt_cred2.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_face_1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\menu_bt_face_1.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_face_2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\menu_bt_face_2.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_mail_1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\menu_bt_mail_1.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_mail_2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\menu_bt_mail_2.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_mapa"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\menu_bt_mapa.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_mapa2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\menu_bt_mapa2.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_twit_1"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\menu_bt_twit_1.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_bt_twit_2"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\menu_bt_twit_2.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_conq"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\menu_conq.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_conquistas"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\menu_conquistas.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_cred"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\menu_cred.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_creditos"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\menu_creditos.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_marvin"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\menu_marvin.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="menu_struct"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\menu_struct.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="splashscreen"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\splashscreen.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="splashscreen_menu_botton"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\splashscreen_menu_botton.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="splash_background"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\splash_background.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="splash_marvin"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\splash_marvin.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="splash_struct"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\splash_struct.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="splash_title"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\splash_title.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="splash_unb50"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xhdpi\splash_unb50.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\drawable-xxhdpi\ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_conq"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\layout-land\activity_conq.xml"
+                qualifiers="land"
+                type="layout" />
+            <file
+                name="activity_cred"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\layout-land\activity_cred.xml"
+                qualifiers="land"
+                type="layout" />
+            <file
+                name="activity_menu"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\layout-land\activity_menu.xml"
+                qualifiers="land"
+                type="layout" />
+            <file
+                name="activity_splash_screen"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\layout-land\activity_splash_screen.xml"
+                qualifiers="land"
+                type="layout" />
+            <file
+                name="build_options"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\layout-land\build_options.xml"
+                qualifiers="land"
+                type="layout" />
+            <file
+                name="build_predio"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\layout-land\build_predio.xml"
+                qualifiers="land"
+                type="layout" />
+            <file
+                name="departamentos"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\layout-land\departamentos.xml"
+                qualifiers="land"
+                type="layout" />
+            <file
+                name="indice_predios"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\layout-land\indice_predios.xml"
+                qualifiers="land"
+                type="layout" />
+            <file
+                name="mapa_especifico"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\layout-land\mapa_especifico.xml"
+                qualifiers="land"
+                type="layout" />
+            <file
+                name="mapa_principal"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\layout-land\mapa_principal.xml"
+                qualifiers="land"
+                type="layout" />
+            <file
+                name="ru"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\layout-land\ru.xml"
+                qualifiers="land"
+                type="layout" />
+            <file
+                name="texto"
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\layout-land\texto.xml"
+                qualifiers="land"
+                type="layout" />
+            <file
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="title_activity_slipt_screen" >O guia do mochileiro da UnB
+                </string>
+                <string name="nome_botao" >Prédios
+                </string>
+
+                <string-array name="FMFS" >
+                    <item>
+FACULDADE DE MEDICINA E SAÚDE
+                    </item>
+                    <item>
+Trata-se de um complexo edificado, composto de três conjuntos paralelos de edificações, que se desenvolvem no sentido longitudinal, e que são interseccionados, transversalmente, por dois grandes eixos de circulação principal. Entre os diferentes blocos existem vários pátios destinados à convivência acadêmica. Os edifícios possuem destinações específicas para a administração e serviços, laboratórios de pesquisa e laboratórios multidisciplinares.
+                    </item>
+                    <item>
+Autor do Projeto: Erico Paulo Sigmar Weidle e Adilson Costa Macedo, com colaboracao de C. E. Roscoe, A. Villanova e C. M. Franci.
+                    </item>
+                    <item>
+Departamentos:\n
+(ENF) Departamento de Enfermagem\n
+(DSC) Departamento de Saúde Coletiva\n
+(NUT) Departamento de Nutrição\n
+(ODT) Departamento de Odontologia\n
+(FAR) Departamento de Farmácia\n
+(DSC) Departamento de Saúde Coletiva\n
+(FMD) Faculdade de Medicina\n
+                    </item>
+                </string-array>
+                <string-array name="FE" >
+                    <item>
+FACULDADE DE EDUCAÇÃO
+                    </item>
+                    <item>
+O projeto original da Faculdade de Educação foi concebido sob orientação do educador Anísio Teixeira e então Reitor da UnB, em 1963. A FE que existia no Plano Orientador da UnB não se implantou de imediato em conseqüência da intervenção militar na Universidade de Brasília (ocupada no dia nove de abril de 1964). A FE somente começou a ser efetivamente implantada em 1966.
+                    </item>
+                    <item>
+Reitor Vigente: Laerte Ramos
+                    </item>
+                    <item>
+Departamentos:\n
+(FE) Faculdade de Educação\n
+(TEF) Departamento de Teoria e Fundamentos\n
+(MTC) Departamento de Métodos e Técnicas\n
+(PAD) Departamento de Planejamento e Administração\n
+                    </item>
+                </string-array>
+                <string-array name="PAT" >
+                    <item>
+PAVILHÃO ANÍSIO TEIXEIRA
+                    </item>
+                    <item>
+O pavilhão foi criado com a intenção de aumentar o número de salas disponíveis e de ser usado por vários cursos e departamentos, seu nome é uma homenagem ao educador Anísio Teixeira que lutou para democratizar o ensino brasileiro.
+                    </item>
+                    <item>
+Frase de Anísio Teixeira: "Democracia, essencialmente, é o modo de vida social em que cada indivíduo conta como uma pessoa"
+                    </item>
+                    <item>
+Departamentos:\n
+(FACE)	Faculd. de Economia, Administração e Contabilidade\n
+                    </item>
+                </string-array>
+
+                <string name="title_activity_main" >MainActivity
+                </string>
+
+                <string-array name="FA" >
+                    <item>
+ FACULDADE DE ESTUDOS SOCIAIS APLICADOS FACULDADE DE DIREITO
+                    </item>
+                    <item>
+ A Faculdade de Estudos Sociais e Aplicados - FA , projetada pelo arquiteto Matheus Gorovitz para abrigar as Faculdades de Direito, Ciência Política e Relações Internacionais, só veio a ser inaugurada no dia 22 de abril de 1982. Anteriormente, o curso de Direito era ministrado nos Institutos Centrais, tendo pertencido, primeiramente, à Faculdade de Ciências Jurídicas e Sociais (FCJS), sendo, em 1970, agregado à Faculdade de Ciências Sociais Aplicadas, a qual abrangia, ainda, os cursos de Biblioteconomia e Informação Científica e de Comunicação. 
+                    </item>
+                    <item>
+ Reitor Vigente: José Carlos Azevedo 
+                    </item>
+                    <item>
+ Departamentos:\n
+(CCA) Depto de Ciências Contábeis e Atuariais\n
+(FDD) Faculdade de Direito\n
+(IPOL) Instituto de Ciência Política\n
+(IREL) Instituto de Relações Internacionais\n
+(FACE) Faculd. de Economia, Administração e Contabilidade\n
+                    </item>
+                </string-array>
+
+                <string name="title_activity_menu" >Main Menu
+                </string>
+                <string name="title_activity_cred" >Creditos
+                </string>
+
+                <string-array name="REITORIA" >
+                    <item>
+Reitoria
+                    </item>
+                    <item>
+Por ocasião da criação da Universidade de Brasilia em 1962, devido à fase inicial da construção, as aulas eram dadas no Ministério da Saúde e a reitoria funcionava no Ministério da Educação. Quando os prédios que compõem a atual Faculdade de Educação ficaram prontos, a Reitoria passou a funcionar no prédio FE 3, onde permaneceu até 1975, quando o prédio definitivo foi concluído.
+                    </item>
+                    <item>
+Reitor Vigente: Amadeu Cury
+                    </item>
+                    <item>
+Departamentos: Direção
+                    </item>
+                </string-array>
+                <string-array name="PJC" >
+                    <item>
+PAVILHÃO JOÃO CALMON
+                    </item>
+                    <item>
+O pavilhão foi criado com a intenção de aumentar o número de salas disponíveis e de ser usado por vários cursos e departamentos, seu nome é uma homenagem ao ex senador João Calmon que lutou, no gorveno, por uma melhor distribuição orçamentária para a educação.
+                    </item>
+                    <item>
+Emenda Calmon: Estabelece a obrigatoriedade de aplicação anual, pela União, de nunca menos de treze por cento, e pelos Estados, Distrito Federal e Municípios, de, no mínimo, vinte e cinco por cento da renda resultante dos impostos, na manutenção e desenvolvimento do ensino.
+                    </item>
+                    <item>
+Departamentos:\n
+(FACE)	Faculd. de Economia, Administração e Contabilidade\n
+                    </item>
+                </string-array>
+
+                <string name="title_activity_splash_screen" >GMUnB
+                </string>
+
+                <string-array name="RU" >
+                    <item>
+RESTAURANTE UNIVERSITÁRIO
+                    </item>
+                    <item>
+O Restaurante Universitário - RU iniciou suas atividades no ano de 1975, para atender a Comunidade Universitária, sendo seu principal objetivo prestar atendimento em alimentação através da produção e distribuição de refeições balanceadas e de qualidade a baixo custo a fim de garantir a permanência e diplomação dos estudantes universitários.
+O horário de atendimento para o desjejum é de 07 às 09 horas para cerca de 200 usuários, o  almoço é de 11 às 14 horas, onde em média são servidas 4000 refeições e no jantar serve-se em média 1000 refeições de 17 às 19 horas, de segunda a sábado.
+                    </item>
+                    <item>
+Reitor Vigente: Amadeu Cury
+                    </item>
+                    <item>
+Autor do Projeto: José Galbinski, com a colaboracão de Antoni Carlos Moraes de Castro
+                    </item>
+                </string-array>
+                <string-array name="ICC_SUL" >
+                    <item>
+ INSTITUTO CENTRAL DE CIÊNCIAS
+                    </item>
+                    <item>
+ O Instituto Central de Ciências (ICC) é o principal prédio acadêmico da Universidade de Brasília. Desenhado por Oscar Niemeyer, também é conhecido como Minhocão, devido à sua extensão de aproximadamente 800 metros de comprimento, dividido em Alas Norte, Centro e Sul. A construção durou cerca de oito anos. Iniciou-se em 1963 e ficou pronta em 1971. O prédio começou a ser ocupado quando a estrutura ficou pronta, inicialmente pela psicologia e pela biologia. Como a universidade não tinha recursos para fazer outros edifícios, resolveu-se colocar no minhocão as áreas que precisavam de mais espaço. 
+                    </item>
+                    <item>
+ Reitor Vigente: Caio Bamin Dias 
+                    </item>
+                    <item>
+ Departamentos:\n
+(DAN) Departamento de Antropologia\n
+(CIC) Departamento de Ciência da Computação\n
+(CIS) Departamento de Ciências Sociais\n
+(EST) Departamento de Estatística\n
+(FIL) Departamento de Filosofia\n
+(GEA) Departamento de Geografia\n
+(HIS) Departamento de História\n
+(LET) Departamento de Línguas Estrangeiras e Tradução\n
+(LIP) Departamento de Lingüística, Português\n
+(MAT) Departamento de Matemática.\n
+(PPB) Departamento de Processos Psicologicos Básicos\n
+(PRO) Departamento de Projetos Expressão e Representação\n
+(PED) Departamento de Psic.Escolar e do Desenvolvimento\n
+(PCL) Departamento de Psicologia Clínica\n
+(PST) Departamento de Psicologia Social e do Trabalho\n
+(SER) Departamento de Serviço Social\n
+(SOL) Departamento de Sociologia\n
+(TEC) Departamento de Tecnologia em Arquit. e Urbanismo\n
+(TEL) Departamento de Teoria Literária e Literatura\n
+(THAU) Depto.de Teoria e Hist.em Arquitetura e Urbanismo\n
+(FACE) Faculd. de Economia, Administração e Contabilidade\n
+(FAV) Faculdade de Agronomia e Medicina Veterinária\n
+(DAP) Departamento de Audiovisuais e Publicidade\n
+(JOR) Departamento de Jornalismo\n
+(IFD) Instituto de Física\n
+(IGD) Instituto de Geociências\n
+(ECO) Departamento de Economia\n
+                    </item>
+                </string-array>
+
+                <string name="menu_settings" >Settings
+                </string>
+
+                <string-array name="BCE" >
+                    <item>
+BIBLIOTECA CENTRAL
+                    </item>
+                    <item>
+A Biblioteca Central da Universidade de Brasília foi criada, em 1962, opondo-se à tradição inadequada de múltiplas bibliotecas dispersas nas várias unidades de ensino das universidades – um sistema oneroso que gerava duplicações desnecessárias de acervo e de processos técnicos e administrativos. Desde então, percorreu uma trajetória ímpar de mudanças, recuos e avanços.
+                    </item>
+                    <item>
+Reitor Vigente: Darcy Ribeiro
+                    </item>
+                    <item>
+Departamentos:\n
+(CID) Departamento de Ciência da Inform. e Documentação\n
+                    </item>
+                </string-array>
+                <string-array name="IQ" >
+                    <item>
+INSTITUTO DE QUÍMICA
+                    </item>
+                    <item>
+No primeiro semestre letivo de 1999, foi criado o Instituto de Química, separando-se assim do Instituto de Ciências Exatas. A organização acadêmica da nova Unidade é de seis grandes áreas: a Química Analítica, Química Inorgânica, Química Orgânica, Ensino de Química, Físico-Química e Tecnologia. 
+                    </item>
+                    <item>
+Reitor Vigente: Lauro Morhy
+                    </item>
+                    <item>
+Departamentos:\n
+(IQD) Instituto de Química\n
+                    </item>
+                </string-array>
+                <string-array name="PMU2" >
+                    <item>
+PAVILHÃO MULTIUSO II
+                    </item>
+                    <item>
+Informações Indisponíveis
+                    </item>
+                    <item>
+Reitor Vigente: Informação Indisponível
+                    </item>
+                    <item>
+Departamentos:\n Informação Indisponível\n
+                    </item>
+                </string-array>
+
+                <string name="title_item_detail" >Item Detail
+                </string>
+
+                <string-array name="ICC_CENTRO" >
+                    <item>
+ INSTITUTO CENTRAL DE CIÊNCIAS
+                    </item>
+                    <item>
+ O Instituto Central de Ciências (ICC) é o principal prédio acadêmico da Universidade de Brasília. Desenhado por Oscar Niemeyer, também é conhecido como Minhocão, devido à sua extensão de aproximadamente 800 metros de comprimento, dividido em Alas Norte, Centro e Sul. A construção durou cerca de oito anos. Iniciou-se em 1963 e ficou pronta em 1971. O prédio começou a ser ocupado quando a estrutura ficou pronta, inicialmente pela psicologia e pela biologia. Como a universidade não tinha recursos para fazer outros edifícios, resolveu-se colocar no minhocão as áreas que precisavam de mais espaço. 
+                    </item>
+                    <item>
+ Reitor Vigente: Caio Bamin Dias 
+                    </item>
+                    <item>
+ Departamentos:\n
+(DAN) Departamento de Antropologia\n
+(CIC) Departamento de Ciência da Computação\n
+(CIS) Departamento de Ciências Sociais\n
+(EST) Departamento de Estatística\n
+(FIL) Departamento de Filosofia\n
+(GEA) Departamento de Geografia\n
+(HIS) Departamento de História\n
+(LET) Departamento de Línguas Estrangeiras e Tradução\n
+(LIP) Departamento de Lingüística, Português\n
+(MAT) Departamento de Matemática.\n
+(PPB) Departamento de Processos Psicologicos Básicos\n
+(PRO) Departamento de Projetos Expressão e Representação\n
+(PED) Departamento de Psic.Escolar e do Desenvolvimento\n
+(PCL) Departamento de Psicologia Clínica\n
+(PST) Departamento de Psicologia Social e do Trabalho\n
+(SER) Departamento de Serviço Social\n
+(SOL) Departamento de Sociologia\n
+(TEC) Departamento de Tecnologia em Arquit. e Urbanismo\n
+(TEL) Departamento de Teoria Literária e Literatura\n
+(THAU) Depto.de Teoria e Hist.em Arquitetura e Urbanismo\n
+(FACE) Faculd. de Economia, Administração e Contabilidade\n
+(FAV) Faculdade de Agronomia e Medicina Veterinária\n
+(DAP) Departamento de Audiovisuais e Publicidade\n
+(JOR) Departamento de Jornalismo\n
+(IFD) Instituto de Física\n
+(IGD) Instituto de Geociências\n
+(ECO) Departamento de Economia\n
+                    </item>
+                </string-array>
+
+                <string name="predio" >Edifício
+                </string>
+
+                <string-array name="IB" >
+                    <item>
+INSTITUTO DE CIÊNCIAS BIOLÓGICAS
+                    </item>
+                    <item>
+A história da biologia na UnB foi marcadamente influenciada pelos acontecimentos políticos a partir da década de 1960. A estrutura introduzida no início da década de 1970 constituiu a base para o atual formato da estrutura do IB. Os esforços dos professores que atuaram nos 35 anos de existência da biologia da UnB, adicionados aos que atuam no presente, chegando aos 50 anos de sua implantação, são elementos importantes para se vislumbrar uma relevante contribuição científica da biologia da UnB no século 21.
+                    </item>
+                    <item>
+Reitor Vigente: Amadeu Cury
+                    </item>
+                    <item>
+Departamentos:\n
+(CEL) Departamento de Biologia Celular\n
+(BOT) Departamento de Botânica\n
+(FIT) Departamento de Fitopatologia\n
+(GEM) Departamento de Genética e Morfologia\n
+(ECL) Departamento de Ecologia\n
+(CFS) Departamento de Ciências Fisiológicas\n
+(ZOO) Departamento de Zoologia\n
+                    </item>
+                </string-array>
+                <string-array name="FT" >
+                    <item>
+FACULDADE DE TECNOLOGIA
+                    </item>
+                    <item>
+A Faculdade de Tecnologia iniciou as suas atividades em 1967, com os curso de engenharia civil, mecânca e elétrica. O Departamento de Engenharia Agronômica esteve vinculado à FT até 1997, quando se transoformou em Faculdade de Agronomia e Medicina Veterinária. Em 1966 foi criado, o Departamento de Engenharia Florestal, cujos alunos também utilizam a estrutura da FAL (Fazenda da Água Limpa).
+A FT conta também com a infraestrutura dos três prédios de Serviços Gerais (SGs 9, 11, 12), projeto original de Oscar Niemeyer além de dois grandes laboratórios (Hidráulica e Mecanica), construídos ao seu lado. 
+                    </item>
+                    <item>
+Reitor Vigente: Laerte Ramos
+                    </item>
+                    <item>
+Departamentos:\n
+(ENC) Departamento de Engenharia Civil e Ambiental\n
+(ENE) Departamento de Engenharia Elétrica\n
+(EFL) Departamento de Engenharia Florestal\n
+(ENM) Departamento de Engenharia Mecânica\n
+                    </item>
+                </string-array>
+
+                <string name="app_name" >O guia do Mochileiro da UnB
+                </string>
+
+                <string-array name="PAV1" >
+                    <item>
+Térreo
+                    </item>
+                </string-array>
+                <string-array name="PAV2" >
+                    <item>
+Térreo
+                    </item>
+                    <item>
+1º Andar
+                    </item>
+                </string-array>
+                <string-array name="PMU1" >
+                    <item>
+PAVILHÃO MULTIUSO I
+                    </item>
+                    <item>
+Informações Indisponíveis
+                    </item>
+                    <item/>
+                    <item/>
+                </string-array>
+
+                <string name="title_activity_conq" >Conquistas
+                </string>
+
+                <string-array name="ICC_NORTE" >
+                    <item>
+ INSTITUTO CENTRAL DE CIÊNCIAS
+                    </item>
+                    <item>
+ O Instituto Central de Ciências (ICC) é o principal prédio acadêmico da Universidade de Brasília. Desenhado por Oscar Niemeyer, também é conhecido como Minhocão, devido à sua extensão de aproximadamente 800 metros de comprimento, dividido em Alas Norte, Centro e Sul. A construção durou cerca de oito anos. Iniciou-se em 1963 e ficou pronta em 1971. O prédio começou a ser ocupado quando a estrutura ficou pronta, inicialmente pela psicologia e pela biologia. Como a universidade não tinha recursos para fazer outros edifícios, resolveu-se colocar no minhocão as áreas que precisavam de mais espaço. 
+                    </item>
+                    <item>
+ Reitor Vigente: Caio Bamin Dias 
+                    </item>
+                    <item>
+ Departamentos:\n
+(DAN) Departamento de Antropologia\n
+(CIC) Departamento de Ciência da Computação\n
+(CIS) Departamento de Ciências Sociais\n
+(EST) Departamento de Estatística\n
+(FIL) Departamento de Filosofia\n
+(GEA) Departamento de Geografia\n
+(HIS) Departamento de História\n
+(LET) Departamento de Línguas Estrangeiras e Tradução\n
+(LIP) Departamento de Lingüística, Português\n
+(MAT) Departamento de Matemática.\n
+(PPB) Departamento de Processos Psicologicos Básicos\n
+(PRO) Departamento de Projetos Expressão e Representação\n
+(PED) Departamento de Psic.Escolar e do Desenvolvimento\n
+(PCL) Departamento de Psicologia Clínica\n
+(PST) Departamento de Psicologia Social e do Trabalho\n
+(SER) Departamento de Serviço Social\n
+(SOL) Departamento de Sociologia\n
+(TEC) Departamento de Tecnologia em Arquit. e Urbanismo\n
+(TEL) Departamento de Teoria Literária e Literatura\n
+(THAU) Depto.de Teoria e Hist.em Arquitetura e Urbanismo\n
+(FACE) Faculd. de Economia, Administração e Contabilidade\n
+(FAV) Faculdade de Agronomia e Medicina Veterinária\n
+(DAP) Departamento de Audiovisuais e Publicidade\n
+(JOR) Departamento de Jornalismo\n
+(IFD) Instituto de Física\n
+(IGD) Instituto de Geociências\n
+(ECO) Departamento de Economia\n
+                    </item>
+                </string-array>
+                <string-array name="PAV5" >
+                    <item>
+Subsolo
+                    </item>
+                    <item>
+Térreo
+                    </item>
+                    <item>
+1º Andar
+                    </item>
+                    <item>
+2º Andar
+                    </item>
+                    <item>
+3º Andar
+                    </item>
+                </string-array>
+                <string-array name="PAV3" >
+                    <item>
+Subsolo
+                    </item>
+                    <item>
+Térreo
+                    </item>
+                    <item>
+1º Andar
+                    </item>
+                </string-array>
+                <string-array name="PAV4" >
+                    <item>
+Subsolo
+                    </item>
+                    <item>
+Térreo
+                    </item>
+                    <item>
+1º Andar
+                    </item>
+                    <item>
+2º Andar
+                    </item>
+                </string-array>
+            </file>
+            <file
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="MyTheme"
+                    parent="android:Theme.Holo.Light" >
+                    <item name="android:windowActionBar">
+false
+                    </item>
+                    <item name="android:windowNoTitle">
+true
+                    </item>
+                    <item name="android:windowFullscreen">
+true
+                    </item>
+                    <item name="android:screenOrientation">
+landscape
+                    </item>
+                </style>
+            </file>
+            <file
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\values-v21\styles.xml"
+                qualifiers="v21" >
+
+                <style
+                    name="MyTheme"
+                    parent="android:Theme.Holo.Light" >
+                    <item name="android:windowActionBar">
+false
+                    </item>
+                    <item name="android:windowNoTitle">
+true
+                    </item>
+                    <item name="android:windowFullscreen">
+true
+                    </item>
+                    <item name="android:screenOrientation">
+landscape
+                    </item>
+                </style>
+            </file>
+            <file
+                path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\main\res\values\attrs.xml"
+                qualifiers="" >
+                <declare-styleable name="SubsamplingScaleImageView" >
+                    <attr
+                        name="src"
+                        format="reference" />
+                    <attr
+                        name="assetName"
+                        format="string" />
+                    <attr
+                        name="panEnabled"
+                        format="boolean" />
+                    <attr
+                        name="zoomEnabled"
+                        format="boolean" />
+                </declare-styleable>
+            </file>
+        </source>
+        <source path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\build\generated\res\rs\debug" />
+        <source path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\build\generated\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="E:\Users\fraps\AndroidstudioProjects\GMUnB\app\src\debug\res" />
+    </dataSet>
+
+</merger>
